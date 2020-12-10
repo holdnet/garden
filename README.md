@@ -5,3 +5,8 @@ But it wasn't until I saw [Nikita Voloboev's](https://github.com/nikitavoloboev/
 
 So here it is. It all starts small, like a real garden, but over time this will grow.
 
+## Software
+
+- [Windows](Software/Windows.md)
+- [Linux](Software/Linux.md)
+
