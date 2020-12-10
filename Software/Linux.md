@@ -1,6 +1,6 @@
 # Linux
 
-- [Neovim](https://neovim.io/)
+- [Neovim](https://neovim.io/)  
   Together with [NerdTree](https://github.com/preservim/nerdtree) and [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) an awesome editor.
 
 ### Neovim configuration
