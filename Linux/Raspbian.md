@@ -42,3 +42,16 @@ $ sudo apt install build-essential
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sh get-docker.sh
 ```
+
+Add user to the `docker` group
+
+```
+$ sudo usermod -aG docker $USER
+$ newgrp docker
+```
+
+Check docker and compose version.
+
+```
+$ docker version
+```
