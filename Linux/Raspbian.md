@@ -35,3 +35,10 @@ $ sudo apt install fish
 ```
 $ sudo apt install build-essential
 ```
+
+## Install Docker
+
+```
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+$ sh get-docker.sh
+```
