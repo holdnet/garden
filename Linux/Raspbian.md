@@ -55,3 +55,18 @@ Check docker and compose version.
 ```
 $ docker version
 ```
+
+## Install Neovim
+
+```
+sudo apt-get install neovim
+```
+
+Install Python support.
+
+```
+sudo apt-get install python-neovim
+sudo apt-get install python3-neovim
+```
+
+
