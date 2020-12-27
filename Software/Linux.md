@@ -3,6 +3,30 @@
 - [Neovim](https://neovim.io/)  
   Together with [NerdTree](https://github.com/preservim/nerdtree) and [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) an awesome editor.
 
+
+
+### Installation
+
+[Download plug.vim](https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim) and put it in the "autoload" directory.
+
+#### Vim
+
+###### Windows (PowerShell)
+
+```
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni $HOME/vimfiles/autoload/plug.vim -Force
+```
+
+#### Neovim
+
+###### Unix, Linux
+
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
 ### Neovim configuration
 
 On first launch the `~/.local/share/nvim/{shada,swap}` directories are auto-generated. Manually create a new `~/.config/nvim` directory and a `init.vim` configuration file.
